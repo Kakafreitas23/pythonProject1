@@ -3,7 +3,6 @@ nomes.remove("admin")
 nomes.remove("Pedro")
 nomes.remove("João")
 nomes.remove("Henrique")
-nomes.remove("Alex")
 
 for n in nomes:
     print(n)
@@ -17,9 +16,5 @@ for n in nomes:
         print("Good night Pedro")
     if "admin" in nomes:
         print("Olá admin, gostaria de ver um relatório de status?")
-    if len(0) in nomes:
-        print("Se a lista estiver vazia, mostre a mensagem Precisamos encontrar "
-              "alguns usuários")
-    else:
-        print("Olá Erick")
+    
 
